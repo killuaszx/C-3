@@ -101,24 +101,15 @@ botaoPegadinha.addEventListener("click", () => {
 
 
 // =========================================
-// 5. CONTROLE DA MÚSICA
+// 5. ABRIR NOSSA MÚSICA
 // =========================================
 
 botaoMusica.addEventListener("click", () => {
 
-    if (musica.paused) {
-
-        musica.play();
-
-        botaoMusica.textContent = "♫";
-
-    } else {
-
-        musica.pause();
-
-        botaoMusica.textContent = "🔇";
-
-    }
+    window.open(
+        "https://www.youtube.com/watch?v=ZGvc_auabvg",
+        "_blank"
+    );
 
 });
 
