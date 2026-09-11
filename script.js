@@ -1,7 +1,4 @@
-```javascript
-// =========================================
-// ELEMENTOS
-// =========================================
+javascript
 
 const inicio = document.getElementById("inicio");
 const envelopeTela = document.getElementById("envelopeTela");
@@ -139,4 +136,3 @@ musica.addEventListener("play", () => {
 musica.addEventListener("pause", () => {
     botaoMusica.textContent = "🔇";
 });
-```
