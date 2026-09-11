@@ -112,16 +112,3 @@ botaoMusica.addEventListener("click", () => {
     );
 
 });
-
-
-// =========================================
-// 6. ATUALIZA O ÍCONE SE A MÚSICA TERMINAR
-// =========================================
-
-musica.addEventListener("play", () => {
-    botaoMusica.textContent = "♫";
-});
-
-musica.addEventListener("pause", () => {
-    botaoMusica.textContent = "🔇";
-});
