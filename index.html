@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Uma carta para voce ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ========================= -->
+    <!-- FUNDO ESTRELADO -->
+    <!-- ========================= -->
+
+    <div class="ceu">
+        <div class="estrelas"></div>
+        <div class="estrelas estrelas-2"></div>
+        <div class="estrelas estrelas-3"></div>
+    </div>
+
+
+    <!-- ========================= -->
+    <!-- MÚSICA -->
+    <!-- ========================= -->
+
+    <audio id="musica" loop>
+        <source src="musica/nossa-musica.mp3" type="audio/mpeg">
+    </audio>
+
+
+    <!-- ========================= -->
+    <!-- 1. TELA INICIAL -->
+    <!-- ========================= -->
+
+    <section id="inicio" class="tela">
+
+        <div class="inicio-conteudo">
+
+            <span class="coracao">♥</span>
+
+            <p class="mini-texto">
+                uma pequena surpresa para você
+            </p>
+
+            <h1>
+                Você recebeu<br>
+                uma carta.
+            </h1>
+
+            <p class="subtexto">
+                Abra quando estiver pronto.
+            </p>
+
+            <button id="botaoAbrir" class="botao">
+                Abrir a carta
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- ========================= -->
+    <!-- 2. ENVELOPE -->
+    <!-- ========================= -->
+
+    <section id="envelopeTela" class="tela escondido">
+
+        <div class="envelope-container">
+
+            <p class="instrucao">
+                Para voce, meu amor.
+            </p>
+
+            <div id="envelope" class="envelope">
+
+                <div class="envelope-corpo"></div>
+
+                <div class="envelope-tampa"></div>
+
+                <div class="selo">
+                    ♥
+                </div>
+
+                <div class="carta-saindo">
+                    <span>para você</span>
+                </div>
+
+            </div>
+
+            <p class="clique">
+                clique no envelope
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- ========================= -->
+    <!-- 3. CARTA -->
+    <!-- ========================= -->
+
+    <section id="cartaTela" class="tela escondido">
+
+        <div class="carta">
+
+            <div class="carta-topo">
+                <span>♥</span>
+                <span>para o meu amor</span>
+                <span>♥</span>
+            </div>
+
+            <h2>Meu amor,</h2>
+
+            <div id="textoCarta" class="texto">
+                
+                <p>
+                    Talvez pareça só uma carta na tela,
+                    mas coloquei nela um pedacinho
+                    de tudo que sinto por você.
+                </p>
+
+                <p>
+                    Eu amo os pequenos momentos,
+                    as nossas conversas, as risadas,
+                    os detalhes que talvez você nem perceba.
+                </p>
+
+                <p>
+                    E, acima de tudo, amo ter você
+                    na minha vida.
+                </p>
+
+                <p>
+                    Obrigada por ser você.
+                </p>
+
+                <p>
+                    Com amor,<br>
+                    <span class="assinatura">malu. ❤️</span>
+                </p>
+
+            </div>
+
+            <button id="botaoTerminar" class="botao escondido">
+                terminei de ler
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- ========================= -->
+    <!-- PEGADINHA -->
+    <!-- ========================= -->
+
+    <section id="pegadinhaTela" class="tela escondido">
+
+        <div class="pegadinha">
+
+            <p class="mini-texto">
+                espera...
+            </p>
+
+            <h2>
+                Você achou que<br>
+                tinha acabado?
+            </h2>
+
+            <p>
+                Eu ainda tenho uma última coisinha
+                para te mostrar.
+            </p>
+
+            <button id="botaoPegadinha" class="botao">
+                ver a última coisa 👀
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- ========================= -->
+    <!-- CARTA POKÉMON -->
+    <!-- ========================= -->
+
+    <section id="pokemonTela" class="tela escondido">
+
+        <div class="pokemon">
+
+            <p class="pokemon-intro">
+                uma última coisa...
+            </p>
+
+            <div class="carta-pokemon">
+
+                <img
+                    src="imagens/nossa-carta-pokemon.png"
+                    alt="Nossa carta Pokémon"
+                >
+
+            </div>
+
+            <div class="frase-final">
+
+                <p>
+                    em todas as batalhas,
+                </p>
+
+                <h1>
+                    EU ESCOLHO VOCÊ! ❤️
+                </h1>
+
+                <span>
+                    I'll aways choose you.
+                </span>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ========================= -->
+    <!-- CONTROLE DA MÚSICA -->
+    <!-- ========================= -->
+
+    <button id="botaoMusica" class="botao-musica">
+        ♫
+    </button>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
