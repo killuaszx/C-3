@@ -1,5 +1,3 @@
-javascript
-
 const inicio = document.getElementById("inicio");
 const envelopeTela = document.getElementById("envelopeTela");
 const cartaTela = document.getElementById("cartaTela");
